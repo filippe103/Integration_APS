@@ -1,4 +1,16 @@
-@istest
+/*******************************************************************************
+ * @company: Globant Brasil 
+ * @author: Filippe de Araujo Nunes
+ * @project: Sulamerica
+ * @Description: Classe de teste para atualização de marcações de APS.
+ * @version
+ * -------------------------------------
+No. 	  Data 				 Autor 			  Descrição
+------ ---------- -------------------------- ----------------------------
+1.0    18/05/2021  Filippe de Araujo Nunes	  Versão inicial.
+
+*******************************************************************************/
+@isTest
 public class TCC_MarcacaoApsTest {
 
     public static final String CONST_URL = 'https://sulamericatest/services/apexrest/marcacaoAps';
@@ -10,7 +22,7 @@ public class TCC_MarcacaoApsTest {
     }
 
     /**
-     * @author Everton da Silva Nascimento
+     * @author Filippe de Araujo Nunes
      * @date 18/05/2021
      * @description teste sucesso atualização dos campos codigo prestador e data última consulta.
      */
@@ -33,7 +45,7 @@ public class TCC_MarcacaoApsTest {
     }
 
     /**
-     * @author Everton da Silva Nascimento
+     * @author Filippe de Araujo Nunes
      * @date 18/05/2021
      * @description teste falha atualização da conta pelo id está incorreto.
      */
@@ -56,7 +68,7 @@ public class TCC_MarcacaoApsTest {
     }
 
     /**
-     * @author Everton da Silva Nascimento
+     * @author Filippe de Araujo Nunes
      * @date 18/05/2021
      * @description teste falha atualização de conta não encontrada.
      */
@@ -79,7 +91,7 @@ public class TCC_MarcacaoApsTest {
     }
 
     /**
-     * @author Everton da Silva Nascimento
+     * @author Filippe de Araujo Nunes
      * @date 18/05/2021
      * @description teste falha atualização de conta campo não preenchido.
      */
@@ -102,7 +114,7 @@ public class TCC_MarcacaoApsTest {
     }
 
     /**
-     * @author Everton da Silva Nascimento
+     * @author Filippe de Araujo Nunes
      * @date 18/05/2021
      * @description teste falha atualização de conta data incorreta.
      */
@@ -125,7 +137,7 @@ public class TCC_MarcacaoApsTest {
     }
 
     /**
-     * @author Everton da Silva Nascimento
+     * @author Filippe de Araujo Nunes
      * @date 18/05/2021
      * @description teste falha atualização duas conta uma correta e outra incorreta.
      */

@@ -1,3 +1,15 @@
+/*******************************************************************************
+ * @company: Globant Brasil 
+ * @author: Filippe de Araujo Nunes
+ * @project: Sulamerica
+ * @Description: Classe responsável por atualizar marcações de APS.
+ * @version
+ * -------------------------------------
+No. 	  Data 				 Autor 			  Descrição
+------ ---------- -------------------------- ----------------------------
+1.0    18/05/2021  Filippe de Araujo Nunes	  Versão inicial.
+
+*******************************************************************************/
 public without sharing class TCC_MarcacaoApsService {
     
     private IRepositoryFactory repositoryFactory = new RepositoryFactory();
